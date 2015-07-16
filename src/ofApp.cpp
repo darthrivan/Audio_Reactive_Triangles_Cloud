@@ -27,11 +27,13 @@ void ofApp::setup(){
 	// 256 samples per buffer
 	// 4 num buffers (latency)
 	
+    //Uncomment to see the Device ID in order to use it in the next function
+    //info appears in the command line on XCode while execution
 	//soundStream.listDevices();
 	
-    //if you want to set a different device id
-	soundStream.setDeviceID(2); //bear in mind the device id corresponds to all audio
-    //devices, including  input-only and output-only devices.
+    // if you want to set a different device id bear in mind the device
+    // id corresponds to all audio devices, including  input-only and output-only devices.
+	soundStream.setDeviceID(0);
 	
 	int bufferSize = 256;
 	

@@ -7,5 +7,5 @@ A copy of the license is included in the section entitled "GNU Free Documentatio
 
 This is an adaptation of the Triangles Cloud example in 'Mastering openFrameworks' by Chris Yanc but using sound volume (like in the example that comes with of 0.8.4) to change the radius of the sphere.
 
-
+Don't forget to change the Device ID in ofApp.cpp depending on where you want the program to listen (I used SoundFlower channel).
 
